@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5d6d2a92-d7e9-4b80-88fe-319ce6fa88cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c415fc97-ea67-4bd8-b086-2fe83b0c4b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\luasocket-3.0-rc1">
+      <UniqueIdentifier>{2ccc3585-c649-4443-a701-297a2db83840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\wsocket.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\auxiliar.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\buffer.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\compat.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\except.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\inet.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\io.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\luasocket.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\mime.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\options.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\select.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\tcp.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\timeout.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\luasocket-3.0-rc1\src\udp.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lopcodes.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\loslib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lparser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lstate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lstring.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lstrlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ltable.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ltablib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ltm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lua.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lundump.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lutf8lib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lvm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lzio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lauxlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lbaselib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lbitlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lcode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lcorolib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lctype.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ldblib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ldebug.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ldo.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ldump.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lfunc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lgc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\linit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\liolib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\llex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lmathlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lmem.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\loadlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lobject.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\wsocket.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\auxiliar.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\buffer.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\compat.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\except.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\inet.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\io.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\luasocket.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\mime.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\options.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\pierror.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\select.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\socket.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\tcp.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\timeout.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\luasocket-3.0-rc1\src\udp.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lopcodes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lparser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lprefix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lstate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lstring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ltable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ltm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lua.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lua.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\luaconf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lualib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lundump.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lvm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lzio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lauxlib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lcode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lctype.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ldebug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ldo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lfunc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lgc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\llex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\llimits.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lmem.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lobject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
