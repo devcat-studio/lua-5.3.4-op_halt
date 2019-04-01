@@ -1,0 +1,8 @@
+*.suo
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+Debug
+Release
+x64
+.vs
