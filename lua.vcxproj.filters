@@ -4,6 +4,12 @@
     <Filter Include="src">
       <UniqueIdentifier>{5d6d2a92-d7e9-4b80-88fe-319ce6fa88cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c415fc97-ea67-4bd8-b086-2fe83b0c4b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\luasocket-3.0-rc1">
+      <UniqueIdentifier>{2ccc3585-c649-4443-a701-297a2db83840}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lapi.c">
@@ -108,6 +114,48 @@
     <ClCompile Include="src\lzio.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\tcp.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\timeout.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\udp.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\wsocket.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\auxiliar.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\buffer.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\compat.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\except.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\inet.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\io.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\luasocket.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\mime.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\options.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\luasocket-3.0-rc1\src\select.c">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\lzio.h">
@@ -187,6 +235,54 @@
     </ClInclude>
     <ClInclude Include="src\lvm.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\select.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\socket.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\tcp.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\timeout.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\udp.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\wsocket.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\auxiliar.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\buffer.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\compat.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\except.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\inet.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\io.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\luasocket.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\mime.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\options.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\luasocket-3.0-rc1\src\pierror.h">
+      <Filter>lib\luasocket-3.0-rc1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
