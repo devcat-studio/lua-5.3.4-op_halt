@@ -47,6 +47,10 @@ LUAMOD_API int (luaopen_debug) (lua_State *L);
 #define LUA_LOADLIBNAME	"package"
 LUAMOD_API int (luaopen_package) (lua_State *L);
 
+// @LUASOCKET {
+#define LUA_SOCKETLIBNAME "socket.core"
+LUALIB_API int (luaopen_socket_core)(lua_State *L);
+// @LUASOCKET }
 
 /* open all previous libraries */
 LUALIB_API void (luaL_openlibs) (lua_State *L);

@@ -53,6 +53,11 @@ static const luaL_Reg loadedlibs[] = {
 #if defined(LUA_COMPAT_BITLIB)
   {LUA_BITLIBNAME, luaopen_bit32},
 #endif
+
+  // @LUASOCKET {
+  { LUA_SOCKETLIBNAME, luaopen_socket_core },
+  // @LUASOCKET }
+
   {NULL, NULL}
 };
 
